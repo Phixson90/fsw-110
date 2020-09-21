@@ -1,58 +1,36 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Gotham Rounded, sans-serif;
-    font-weight: normal;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
-  }
-  
-  .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-  }
-  
-  .calculator-grid > button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 1px solid white;
-    outline: none;
-    background-color: rgba(255, 255, 255, .75);
-  }
-  
-  .calculator-grid > button:hover {
-    background-color: rgba(255, 255, 255, .9);
-  }
-  
-  .span-two {
-    grid-column: span 2;
-  }
-  
-  .output {
-    grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+body {
+  background: linear-gradient(lightblue, darkblue);
+}
+
+.grid-container  {
+   display: grid;
+   grid-column-gap: 50px;
+   grid-template-columns: 100px 60px 100px 60px 200px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.grid-item {
+    background-color: rgba(40, 99, 6, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
-  }
-  
-  .output .previous-operand {
-    color: rgba(255, 255, 255, .75);
-    font-size: 1.5rem;
-  }
-  
-  .output .current-operand {
-    color: white;
-    font-size: 2.5rem;
-  }
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-item-button {
+  background-color: rgba(179, 184, 181, 0.8);
+  border: 5px solid rgba(0, 5, 1, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Ranchers', cursive;
+  border-radius: 10px;
+}
