@@ -1,1 +1,0 @@
-document.getElementById("practice").innerHTML="Hi! This is from Javascript!";

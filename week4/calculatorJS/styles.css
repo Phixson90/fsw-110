@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: linear-gradient(lightblue, darkblue);
 }
@@ -33,4 +34,41 @@ body {
   text-align: center;
   font-family: 'Ranchers', cursive;
   border-radius: 10px;
+=======
+body {
+  background: linear-gradient(lightblue, darkblue);
+}
+
+.grid-container  {
+   display: grid;
+   grid-column-gap: 50px;
+   grid-template-columns: 100px 60px 100px 60px 200px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.grid-item {
+    background-color: rgba(40, 99, 6, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-item-button {
+  background-color: rgba(179, 184, 181, 0.8);
+  border: 5px solid rgba(0, 5, 1, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Ranchers', cursive;
+  border-radius: 10px;
+>>>>>>> 4806911968eb4c809277bbff32a21b347f22e67e
 }
