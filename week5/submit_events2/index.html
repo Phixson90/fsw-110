@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Fill out this form to fly on our safe airplanes.</h1>
+    <h3>We only fly American made Boeing airplanes to support American workers.  </h3>
+
+    <form name="airlineForm">
+        <input  type ="text" name="firstName"/>First Name<br>
+        <input type="text" name="lastName"/>Last Name<br>
+        <input type="number" name="age"/>Age<br>
+
+        <h4>What is your gender?</h4>
+
+        Male: <input   type="radio" name="gender" value="Male"/>
+        Female: <input   type="radio" name="gender" value="Female"/>
+         Not willing to share:<input type="radio" name="gender" value="notWillingToShare"/><br>
+
+
+        <h4>Where are you going? Be careful what you choose!</h4>
+        <select name="city">
+            <option value="North Korea">North Korea(one way)</option>
+            <option value="Freeattle">Freeattle (everything's free here!)</option>
+            <option value="New York">New York(just New York...)</option>
+        </select> 
+
+        <br>
+
+        <h4>Dietery Restrictions</h4>
+        <select name="Diet">
+            <option value="Paleo">Paleo</option>
+            <option value="Vegan">Vegan</option>
+            <option value="lactoseIntolerant">Lactose Intolerant</option>
+            <option value="carvivore">Carnivore(Only Meat!)</option>
+        </select>
+
+        <br>
+
+        <input type="button" value="Submit" onclick="alert('airlineForm');"/>
+
+
+    </form>
+
+    <br>
+
+    
+
+</body>
+</html>

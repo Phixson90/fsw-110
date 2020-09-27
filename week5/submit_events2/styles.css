@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/Z7XECUV6KVBKTHDIYRXWKYJ454.jpg);
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-top: 200px;
+
+}
+
+h1 {
+    color: rgb(56, 67, 78);
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: aquamarine;
+}
